@@ -1,51 +1,15 @@
-# Decision Tree Visualizer
+# TreeXplorer
 
-### <ins>Problem Statement</ins>:- Understanding how decision tree–based models like XGBoost make predictions can often feel like a “black box.” While XGBoost is one of the most powerful machine learning algorithms, its inner workings are not easily interpretable for beginners or even practitioners who want deeper insights. Existing tools for tree visualization are either too complex, lack interactivity, or require heavy setup. There is a need for a tool that can:
+### <ins>Problem Statement</ins>:- Decision trees are one of the most widely used machine learning algorithms due to their interpretability and effectiveness. However, many learners and practitioners struggle to understand how these models make predictions, how splits are formed, and how hyperparameters affect tree structure. Existing visualization tools are often static, complex to set up, or lack interactivity.
 
-Provide an intuitive visualization of XGBoost decision trees.
+#### <ins>There is a need for a tool that can:</ins>
+#### 1. Allow users to train and visualize decision trees in real-time with adjustable parameters.
+#### 2. Demonstrate how algorithms like XGBoost build and optimize trees.
+#### 3. Provide an interactive, web-based interface for both learning and experimentation.
+#### 4. Help users understand the effect of features, splits, and depth on the final model.
 
-Help users understand feature splits, thresholds, and decision paths in a user-friendly way.
-
-Allow interactive exploration of trained trees without diving into raw code or command-line tools.
-
-Be lightweight, accessible, and usable directly in a browser.
-
-Introducing XGBoost Decision Tree Visualizer 
-
-Our Streamlit-based web app allows users to:
-
-Train an XGBoost model on example datasets or custom CSV uploads.
-
-Visualize individual decision trees using Graphviz integration.
-
-Explore feature importance and split thresholds interactively.
-
-Gain clear, educational insights into how gradient boosting works.
-
-Key Features 
-
-Upload your own dataset or use built-in samples.
-
-Select specific trees from the XGBoost ensemble to visualize.
-
-Display feature importance alongside the tree view.
-
-Lightweight, browser-based Streamlit interface.
-
-Easy to extend for educational, research, or project use.
-
-Tech Stack 
-
-Python (Scikit-learn, XGBoost, Pandas, NumPy)
-
-Streamlit (interactive UI)
-
-Graphviz (tree visualization)
-
-Future Enhancements 
-
-Interactive tree traversal (decision path) for user-given inputs.
-
-Export tree plots and feature importance as PDF/PNG reports.
-
-Add support for Random Forest and other tree-based models.
+#### <ins>Introducing TreeXplorer:-</ins>
+#### 1. Build decision trees interactively using XGBoost and Scikit-learn.
+#### 2. Visualize the tree structure with Graphviz for easy interpretation.
+#### 3. Enable users to tune hyperparameters and immediately see the effect on the tree.
+#### 4. Provide a user-friendly Streamlit app for exploration, experimentation, and learning.
